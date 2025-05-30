@@ -1,0 +1,122 @@
+basic:
+    name: 'Test project 001'
+    environments:
+        production: 'https://www.lordping.com/en-NZ/'
+        staging: 'https://qa.lordping.com/en-NZ/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /online-slots
+        - /online-slots/jackpots
+        - /online-slots/daily-jackpots
+        - /online-slots/megaways
+        - /online-slots/slots-themes
+        - /online-slots/slots-providers
+        - /live-casino
+        - /live-casino/roulette
+        - /live-casino/blackjack
+        - /live-casino/baccarat
+        - /live-casino/game-shows
+        - /casino-games
+        - /casino-games/table-games
+        - /casino-games/poker
+        - /casino-games/scratch-cards
+        - /casino-promotions
+        - /casino-features
+        - /about-us
+        - /responsible-gaming
+        - /help
+        - /contact
+        - /bonus-policy
+        - /live-casino/blackjack-b-by-evolution
+        - /casino-games/gold-rush-scratch
+        - /live-casino/adventures-beyond-wonderland-live-by-playtech
+        - /live-casino/evolution-lightning-roulette
+        - /live-casino/20p-roulette
+        - /casino-games/teen-patti
+        - /casino-games/joker-poker
+        - /live-casino/plinko-go
+        - /casino-games/big-bass-crash
+        - /online-slots/book-of-books
+        - /live-casino/first-person-blackjack
+        - /popular
+        - /live-casino/plinkox
+        - /casino-games/balloon
+        - /casino-games/super-trunfo-futebol
+        - /casino-games/kick-it-multiplayer
+        - /casino-games/footballx
+        - /casino-games/bucking-rider
+        - /newest
+        - /online-slots/thor
+        - /online-slots/book-of-dead
+        - /online-slots/ghost-father
+        - /online-slots/coin-strike-hold-and-win
+        - /online-slots/big-bass-splash
+        - /online-slots/shining-crown-jackpot
+        - /online-slots/eye-of-horus-the-golden-tablet-jackpot
+        - /online-slots/barbarossa-doublemax
+        - /online-slots/fishin-frenzy-big-catch-jackpot
+        - /online-slots/robin-sherwood-marauders
+        - /online-slots/good-luck-clusterbusters-jackpot
+        - /live-casino/thai-baccarat
+        - /live-casino/bac-bo
+        - /live-casino/studio21-hearts-blackjack
+        - /live-casino/crazy-time
+        - /live-casino/piggies-and-the-bank-luckytap
+        - /live-casino/immersive-roulette
+        - /casino-games/european-roulette-pro-special
+        - /casino-games/high-flyer
+        - /casino-games/american-twenty-one-blackjack-high-roller
+        - /casino-games/three-card-poker
+        - /casino-games/blood-queen-scratch
+        - /casino-games/european-twenty-one-blackjack
+        - /casino-games/playtech-live-poker-lobby
+        - /casino-games/aces-faces
+        - /payment-options
+        - /affiliates
+        - /site-map
+        - /casino-promotions/welcome-bonus-offer
+        - /casino-promotions/free-spins-offer
+        - /casino-promotions/free-spins-for-a-year
+        - /casino-promotions/drops-and-wins
+        - /casino-promotions/prize-twister
+        - /privacy
+        - /terms
+        - /payment-options/visa-mastercard
+        - /payment-options/paysafecard
+        - /payment-options/skrill
+        - /payment-options/neteller
+        - /payment-options/payz
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: ''
+    retina_images: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
+proxy: false
+type: single-site
