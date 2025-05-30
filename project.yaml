@@ -5,7 +5,6 @@ basic:
         staging: 'https://qa.lordping.com/en-NZ/'
         development: ''
     breakpoints:
-        - 640
         - 1080
     pages:
         - /
